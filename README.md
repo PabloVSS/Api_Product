@@ -35,11 +35,13 @@ This project aims to provide a basic solution for product control, ideal for tho
 
 - Deleting Products: Use the URL http://localhost:3000/product/{id} with the DELETE method, specifying the {id} of the product to delete.
 
-## Tecnologias | Tecnologies: 
+## Tecnologias
 
 NestJs: Framework para construção de aplicações Node.js.
 
 TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+
+## Tecnologies
 
 NestJs: Framework for building Node.js applications.
 
@@ -50,6 +52,7 @@ TypeScript: Programming language that adds static typing to JavaScript.
 
 Como o projeto é simples, criei três pastas: produtos, constants e requirements. A pasta produtos contém toda a estrutura necessária para o funcionamento da API. Dentro dela, temos os entities, responsáveis por gerenciar as informações que serão manipuladas, e os controllers, que, como o nome sugere, controlam as operações da API. Além disso, a pasta constants armazena informações auxiliares que ajudam a verificar se a API está funcionando corretamente. A pasta requirements, por sua vez, é utilizada para testar as URLs utilizando uma extensão do VSCode chamada REST Client, permitindo realizar as requisições diretamente no editor.
 
+## Project structure
 
 Since the project is simple, I created three folders: produtos, constants, and requirements. The produtos folder contains all the necessary structure for the API to function. Inside it, we have the entities, which are responsible for managing the information that will be manipulated, and the controllers, which, as the name suggests, control the API's operations. Additionally, the constants folder stores auxiliary information that helps verify if the API is working correctly. The requirements folder, on the other hand, is used to test the URLs using a VSCode extension called REST Client, allowing you to make requests directly in the editor.
 
