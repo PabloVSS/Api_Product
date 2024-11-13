@@ -35,7 +35,7 @@ This project aims to provide a basic solution for product control, ideal for tho
 
 - Deleting Products: Use the URL http://localhost:3000/product/{id} with the DELETE method, specifying the {id} of the product to delete.
 
-**Tecnologias** | **Tecnologies**: 
+## Tecnologias | Tecnologies: 
 
 NestJs: Framework para construção de aplicações Node.js.
 
