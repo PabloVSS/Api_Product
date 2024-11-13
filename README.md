@@ -84,13 +84,17 @@ Since the project is simple, I created three folders: produtos, constants, and r
 
 ```
 
-# Clone o repositório
+# Clone o repositório | Clone the repository
+
 git clone https://github.com/seu-usuario/Api_Product
 
-# Instale as dependências
+# Instale as dependências | Install the dependencies
+
 npm install
 
-# Inicie o projeto
+
+# Inicie o projeto | Start the project
+
 npm start
 
 
