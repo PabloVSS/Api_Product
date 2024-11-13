@@ -5,11 +5,6 @@ import Product from './product.entity';
 @Controller('product')
 export class ProductController {
 
-  @Get('ping')
-  ping(): string {
-    return 'Pong';
-  }
-
   @Post()
   async create(@Body() product: Product): Promise<void> {
     products.push({
@@ -38,12 +33,9 @@ export class ProductController {
     products[index] = {...products[index], ...product};
   }
 
-
-
   @Delete(':id')
   async remove(@Param('id') id: String) : Promise<void> {
     const index = products.findIndex((p) => p.id === +id);
     products.splice(index, 1);
   }
-
 }
